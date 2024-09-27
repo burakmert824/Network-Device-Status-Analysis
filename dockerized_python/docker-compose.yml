@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: report_generator_app
+    volumes:
+      - ./input:/usr/src/app/input
+      - ./output:/usr/src/app/output

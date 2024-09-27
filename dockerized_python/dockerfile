@@ -1,0 +1,16 @@
+FROM python:3.9-slim
+
+WORKDIR /usr/src/app
+
+COPY . .
+
+EXPOSE 80
+
+# Ensure the input directory exists
+RUN mkdir -p /usr/src/app/input
+
+# Ensure the output directory exists
+RUN mkdir -p /usr/src/app/output
+
+# Run app.py when the container launches
+CMD ["python", "./hw.py"]
