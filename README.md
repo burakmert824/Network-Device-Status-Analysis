@@ -5,19 +5,19 @@ This project involves the development of a Dockerized Python and Perl script tha
 
 The analysis includes determining key metrics, such as:
 
-The total number of devices and cards.
+- The total number of devices and cards.
 
-The maximum card temperature and the hottest card and device.
+- The maximum card temperature and the hottest card and device.
 
-Specific properties for each device, such as:
+- Specific properties for each device, such as:
 
-The number of cards.
+- - The number of cards.
 
-The count of cards with a temperature above 70°C.
+- - The count of cards with a temperature above 70°C.
 
-The maximum temperature for each card.
+- - The maximum temperature for each card.
 
-The average temperature across all cards.
+- - The average temperature across all cards.
 
 The output of the analysis is generated in HTML format, providing a clear report with easy-to-read data visualizations. This solution is Dockerized to ensure consistency and ease of deployment across various environments.
 
